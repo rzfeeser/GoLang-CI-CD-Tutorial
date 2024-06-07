@@ -2,7 +2,9 @@
 
 ## Introduction
 
-This lab was original written on GitLab by RZFeeser. See https://gitlab.com/rzfeeser/golang-ci-cd-tutorial
+This lab was original written on GitLab by RZFeeser.  
+
+See [https://gitlab.com/rzfeeser/golang-ci-cd-tutorial](https://gitlab.com/rzfeeser/golang-ci-cd-tutorial)
 
 The overall purpose is experimenting with using Go within GitLab's CI / CD pipelines. 
 
