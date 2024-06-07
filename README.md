@@ -11,14 +11,14 @@ The overall purpose is experimenting with using Go within GitLab's CI / CD pipel
 
 ## Getting Started
 
-The `.gitlab-ci.yml` file in this repository will cause automation to run tests against the code within. If tests are passed, the application will be run as well.
+The `.github/workflow/go.yml` file in this repository will cause automation to run tests against the code within. If tests are passed, the application will be run as well.
 
 
 ## Resources
 - [The Go Programming Language](https://go.dev/)
-- [GitLab - Pipelines](https://docs.gitlab.com/ee/ci/pipelines/)
-- [GitLab - .gitlab-ci.yml](https://docs.gitlab.com/ee/ci/yaml/gitlab_ci_yaml.html)
-- [GitLab - .gitlab-ci.yml Keyword Reference](https://docs.gitlab.com/ee/ci/yaml/)
+- [GitHub - Building and Testing Go Pipeline](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-go)
+- [GitHub - Actions](https://docs.github.com/en/actions)
+- [GitHub - workflow_dispatch button](https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow)
 
 
 ## Author
