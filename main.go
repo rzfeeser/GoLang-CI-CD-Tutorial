@@ -13,7 +13,7 @@ func main() {
 	}
 
 	fmt.Println("Hello from " + hello_from + "!")
-	fmt.Println("Today we learn about GitLab Best Practices and CI/CD magic :)")
+	fmt.Println("Today we learn about GitHub Best Practices and CI/CD magic :)")
 
 	fmt.Println("");
 
