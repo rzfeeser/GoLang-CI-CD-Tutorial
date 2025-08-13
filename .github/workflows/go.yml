@@ -9,9 +9,20 @@ on:
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
+    inputs:   # this allows on a button press to send info to the job
+      who_says_hello:
+        description: This is the person or persons you would like to greet
+        required: false
+        default: RZFeeser
+        type: string
+        #type: choice
+        #options:
+          # - RZFeeser
+          # - guest
+          # - admin
 
 env:
-  HELLO_FROM: RZFeeser
+  HELLO_FROM: ${{ github.event.inputs.who_says_hello }}   # this is now the default RZFeeser or a custom value
 
 jobs:
 
